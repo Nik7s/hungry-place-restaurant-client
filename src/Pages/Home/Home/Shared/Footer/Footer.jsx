@@ -41,17 +41,15 @@ const Footer = () => {
       </div>
       <div>
         <h1 className="font-mono font-bold text-xl mb-10">CONTUCT US</h1>
-        <p>hungry@place.com</p>
-        <p>+1 441 333 997</p>
-        <p>
+        <p className="text-[#84928A] font-mono font-bold">hungry@place.com</p>
+        <p className="text-[#84928A] font-mono font-bold">+1 441 333 997</p>
+        <p className="text-[#84928A] font-mono font-bold">
           Park Ave, New York,
           <br />
           NY, USA
         </p>
 
-        <h1 className="font-mono font-bold text-xl mb-10">
-          SIGNUP FOR OUR NEWSLETTER
-        </h1>
+        <h1 className="font-mono font-bold mb-10">SIGNUP FOR OUR NEWSLETTER</h1>
       </div>
       <div>
         <h1 className="font-mono font-bold text-xl">OTHER LOCATIONS</h1>
