@@ -63,6 +63,19 @@ const Footer = () => {
       </div>
       <div>
         <h1 className="font-mono font-bold text-xl">OTHER LOCATIONS</h1>
+        <h1 className="font-mono  font-bold mt-10">FIRST BRANCH</h1>
+        <p className="text-[#84928A] mt-3 font-mono font-bold">
+          2432 Saint Alley,
+          <br />
+          TAMPA, AF 5435
+        </p>
+        <div className="divider"></div>
+        <h1 className="font-mono  font-bold mt-6">SECOND BRANCH</h1>
+        <p className="text-[#84928A] mt-3 font-mono font-bold">
+          5345 Waston Street,
+          <br />
+          CAMDEN, NJ 9087
+        </p>
       </div>
     </div>
   );
