@@ -97,11 +97,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-black">
+      <div className="bg-black text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <div>
           <p>Copy right act</p>
         </div>
-        <div>
+        <div className=" grid grid-cols-4">
           <img src={visa} alt="visa" />
           <img src={master} alt="master" />
           <img src={american} alt="american" />
