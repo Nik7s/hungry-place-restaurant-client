@@ -49,7 +49,16 @@ const Footer = () => {
           NY, USA
         </p>
 
-        <h1 className="font-mono font-bold mb-10">SIGNUP FOR OUR NEWSLETTER</h1>
+        <h1 className="font-mono mt-12 font-bold mb-10">
+          SIGNUP FOR OUR NEWSLETTER
+        </h1>
+        <div className="mt-[-20px]">
+          <input
+            type="email"
+            placeholder="Your Email"
+            className="input bg-[#191919] input-bordered input-error w-full max-w-xs"
+          />
+        </div>
       </div>
       <div>
         <h1 className="font-mono font-bold text-xl">OTHER LOCATIONS</h1>
