@@ -1,3 +1,8 @@
+import visa from "../../../../../assets/cards/visa.png";
+import master from "../../../../../assets/cards/master.png";
+import american from "../../../../../assets/cards/american.png";
+import paypal from "../../../../../assets/cards/paypal.png";
+
 const Footer = () => {
   return (
     <>
@@ -89,6 +94,18 @@ const Footer = () => {
             <br />
             CAMDEN, NJ 9087
           </p>
+        </div>
+      </div>
+
+      <div className="bg-black">
+        <div>
+          <p>Copy right act</p>
+        </div>
+        <div>
+          <img src={visa} alt="visa" />
+          <img src={master} alt="master" />
+          <img src={american} alt="american" />
+          <img src={paypal} alt="paypal" />
         </div>
       </div>
     </>
