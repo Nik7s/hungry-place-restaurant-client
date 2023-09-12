@@ -102,7 +102,7 @@ const Footer = () => {
         <div>
           <p className="text-[#8E9584] ms-10">
             &copy; 2023{" "}
-            <span className="text-white  font-bold backdrop:">
+            <span className="text-gray-600  font-bold backdrop:">
               Hafizur Rahman
             </span>
             , All Right Reserved
