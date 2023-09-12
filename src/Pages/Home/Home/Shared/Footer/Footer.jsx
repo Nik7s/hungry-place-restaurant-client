@@ -2,6 +2,7 @@ import visa from "../../../../../assets/cards/visa.png";
 import master from "../../../../../assets/cards/master.png";
 import american from "../../../../../assets/cards/american.png";
 import paypal from "../../../../../assets/cards/paypal.png";
+import payoneer from "../../../../../assets/cards/payoneer.png";
 
 const Footer = () => {
   return (
@@ -97,15 +98,16 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-black text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+      <div className="bg-black items-center text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <div>
           <p>Copy right act</p>
         </div>
-        <div className=" grid grid-cols-4">
-          <img src={visa} alt="visa" />
-          <img src={master} alt="master" />
-          <img src={american} alt="american" />
-          <img src={paypal} alt="paypal" />
+        <div className=" flex justify-end me-4 gap-2">
+          <img width="50px" src={visa} alt="visa" />
+          <img width="50px" src={master} alt="master" />
+          <img width="50px" src={american} alt="american" />
+          <img width="50px" src={paypal} alt="paypal" />
+          <img width="50px" src={payoneer} alt="payoneer" />
         </div>
       </div>
     </>
