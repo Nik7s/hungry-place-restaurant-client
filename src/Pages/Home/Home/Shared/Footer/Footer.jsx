@@ -100,7 +100,13 @@ const Footer = () => {
 
       <div className="bg-black items-center text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <div>
-          <p>Copy right act</p>
+          <p className="text-[#8E9584] ms-10">
+            &copy; 2023{" "}
+            <span className="text-white  font-bold backdrop:">
+              Hafizur Rahman
+            </span>
+            , All Right Reserved
+          </p>
         </div>
         <div className=" flex justify-end me-4 gap-2">
           <img width="50px" src={visa} alt="visa" />
