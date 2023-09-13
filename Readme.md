@@ -1,4 +1,4 @@
-# Hungry Place Resturant Website
+# Hungry Place Resturant Website 🌐🌐🌐
 
 ## Technologies 🚩
 
