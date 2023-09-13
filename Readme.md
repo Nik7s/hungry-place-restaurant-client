@@ -2,7 +2,8 @@
 
 ## Tecnologies
 
-| Frontend       | Backend          |
-|----------------|----------------- |
-| React          |  Node.js       |
+| Frontend               | Backend          |
+|------------------------|----------------- |
+| React                  |  Node JS         |
+| React Router Dom       |  Express JS      |
 
