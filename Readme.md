@@ -9,4 +9,6 @@
 | Tailwind               |  MongoDb         |
 | DaysiUi                |                  |
 | Firebase               |                  |
+| Context API            |                  |
+| AOS                    |                  |
 
