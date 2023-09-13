@@ -1,9 +1,11 @@
 # Hungry Place Resturant Website
 
-## Tecnologies 🚩
+## Technologies 🚩
 
 | Frontend               | Backend          |
 |------------------------|----------------- |
 | React                  |  Node JS         |
 | React Router Dom       |  Express JS      |
+| Tailwind               |  MongoDb         |
+| DaysiUi                |                  |
 
