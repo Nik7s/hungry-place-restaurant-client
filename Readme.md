@@ -8,4 +8,5 @@
 | React Router Dom       |  Express JS      |
 | Tailwind               |  MongoDb         |
 | DaysiUi                |                  |
+| Firebase               |                  |
 
