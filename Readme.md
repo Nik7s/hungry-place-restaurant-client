@@ -11,4 +11,5 @@
 | Firebase               |                  |
 | Context API            |                  |
 | AOS                    |                  |
+| React Sweet Alert      |                  |
 
