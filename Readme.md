@@ -1,6 +1,6 @@
 # Hungry Place Resturant Website
 
-## Tecnologies
+## Tecnologies 🚩
 
 | Frontend               | Backend          |
 |------------------------|----------------- |
