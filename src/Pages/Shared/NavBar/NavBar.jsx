@@ -13,7 +13,7 @@ const NavBar = () => {
   );
   return (
     <div className="navbar bg-base-100 text-white">
-      <div className="navbar-start ps-16">
+      <div className="navbar-start ps-12">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -43,7 +43,7 @@ const NavBar = () => {
         </a>
       </div>
 
-      <div className="navbar-end pe-16">
+      <div className="navbar-end pe-12">
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navItems}</ul>
         </div>
