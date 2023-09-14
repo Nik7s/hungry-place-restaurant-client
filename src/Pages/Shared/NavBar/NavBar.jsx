@@ -1,3 +1,4 @@
+import logo from "./../../../assets/logo.png";
 const NavBar = () => {
   const navItems = (
     <>
@@ -37,13 +38,15 @@ const NavBar = () => {
             {navItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a>
+          <img className="w-[200px]" src={logo} alt="logo" />
+        </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navItems}</ul>
-      </div>
+
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">{navItems}</ul>
+        </div>
       </div>
     </div>
   );
