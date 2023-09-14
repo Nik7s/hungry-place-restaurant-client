@@ -1,4 +1,5 @@
 const NavBar = () => {
+  const subNavItems = <></>;
   return (
     <div className="navbar bg-base-100 text-white">
       <div className="navbar-start">
@@ -28,14 +29,7 @@ const NavBar = () => {
             </li>
             <li>
               <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <ul className="p-2">{subNavItems}</ul>
             </li>
             <li>
               <a>Item 3</a>
@@ -52,14 +46,7 @@ const NavBar = () => {
           <li tabIndex={0}>
             <details>
               <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <ul className="p-2">{subNavItems}</ul>
             </details>
           </li>
           <li>
