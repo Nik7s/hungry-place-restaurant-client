@@ -1,5 +1,15 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import logo from "./../../../assets/logo.png";
+
 const NavBar = () => {
+  //AOS animation used here
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   const navItems = (
     <>
       <li>
@@ -12,7 +22,12 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="navbar fixed z-10 bg-opacity-40 bg-black text-white">
+    <div
+      className="navbar  fixed z-10 bg-opacity-40 bg-black text-white"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <div className="navbar-start ps-12">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
