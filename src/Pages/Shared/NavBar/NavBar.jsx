@@ -12,7 +12,7 @@ const NavBar = () => {
     </>
   );
   return (
-    <div className="navbar fixed z-10 bg-black text-white">
+    <div className="navbar fixed z-10 opacity-40 bg-black text-white">
       <div className="navbar-start ps-12">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -39,7 +39,7 @@ const NavBar = () => {
           </ul>
         </div>
         <a>
-          <img className="w-[200px]" src={logo} alt="logo" />
+          <img className="w-[240px]" src={logo} alt="logo" />
         </a>
       </div>
 
