@@ -34,7 +34,7 @@ const Categories = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="relative">
+          <div className="relative ">
             <img src={s1} alt="slide" />
             <h2 className="uppercase absolute bottom-[30px] left-[35%] text-3xl  text-center  -ms-6 text-white shadow-xl">
               Salad
@@ -45,7 +45,7 @@ const Categories = () => {
           <div className="relative">
             <img src={s2} alt="slide" />
             <h2 className="uppercase absolute bottom-[30px] left-[35%] text-3xl  text-center  -ms-6 text-white shadow-xl">
-              Soups
+              Pizzas
             </h2>
           </div>
         </SwiperSlide>
@@ -53,7 +53,7 @@ const Categories = () => {
           <div className="relative">
             <img src={s3} alt="slide" />
             <h2 className="uppercase absolute bottom-[30px] left-[35%] text-3xl  text-center  -ms-6 text-white shadow-xl">
-              Pizzas
+              Soups
             </h2>
           </div>
         </SwiperSlide>
