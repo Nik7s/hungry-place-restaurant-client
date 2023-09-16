@@ -1,7 +1,7 @@
 const SectionTitle = ({ heading, subHeading }) => {
   return (
     <div>
-      <p>{subHeading}</p>
+      <p className="text-yellow-600">{subHeading}</p>
       <h1>{heading}</h1>
     </div>
   );

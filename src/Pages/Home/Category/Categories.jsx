@@ -9,6 +9,7 @@ import s1 from "../../../../src/assets/slide/slide1.jpg";
 import s2 from "../../../../src/assets/slide/slide2.jpg";
 import s3 from "../../../../src/assets/slide/slide3.jpg";
 import s4 from "../../../../src/assets/slide/slide4.jpg";
+import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
 const Categories = () => {
   //AOS animation used here
@@ -24,6 +25,10 @@ const Categories = () => {
       data-aos-easing="linear"
       className="pt-10 pb-20 max-w-screen-lg	mx-auto bg-white"
     >
+      <SectionTitle
+        subHeading={"From 10.00 am - 10.00 pm"}
+        heading={"Order Online"}
+      />
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
