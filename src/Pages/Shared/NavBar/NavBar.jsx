@@ -13,11 +13,17 @@ const NavBar = () => {
   const navItems = (
     <>
       <li>
-        <a>Item 1</a>
+        <a>Home</a>
       </li>
 
       <li>
-        <a>Item 3</a>
+        <a>Contact</a>
+      </li>
+      <li>
+        <a>Dashboard</a>
+      </li>
+      <li>
+        <a>Our Menu</a>
       </li>
     </>
   );
