@@ -26,7 +26,7 @@ const Categories = () => {
       className="pt-10 pb-20 max-w-screen-lg	mx-auto bg-white"
     >
       <SectionTitle
-        subHeading={"From 10.00 am - 10.00 pm"}
+        subHeading={"From 10.00am to 10.00pm"}
         heading={"Order Online"}
       />
       <Swiper
