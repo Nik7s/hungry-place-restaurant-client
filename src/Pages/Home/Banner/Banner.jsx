@@ -9,26 +9,28 @@ import img6 from "../../../../src/assets/BannerImages/06.png";
 
 const Banner = () => {
   return (
-    <Carousel showStatus={false}>
-      <div>
-        <img src={img1} alt="slide 1" />
-      </div>
-      <div>
-        <img src={img2} alt="slide 2" />
-      </div>
-      <div>
-        <img src={img3} alt="slide 3" />
-      </div>
-      <div>
-        <img src={img4} alt="slide 4" />
-      </div>
-      <div>
-        <img src={img5} alt="slide 5" />
-      </div>
-      <div>
-        <img src={img6} alt="slide 6" />
-      </div>
-    </Carousel>
+    <div>
+      <Carousel showStatus={false}>
+        <div>
+          <img src={img1} alt="slide 1" />
+        </div>
+        <div>
+          <img src={img2} alt="slide 2" />
+        </div>
+        <div>
+          <img src={img3} alt="slide 3" />
+        </div>
+        <div>
+          <img src={img4} alt="slide 4" />
+        </div>
+        <div>
+          <img src={img5} alt="slide 5" />
+        </div>
+        <div>
+          <img src={img6} alt="slide 6" />
+        </div>
+      </Carousel>
+    </div>
   );
 };
 
