@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
+import MenuItem from "./MenuItem";
 
 const MenuItems = () => {
   const [items, setItems] = useState([]);
@@ -14,9 +15,14 @@ const MenuItems = () => {
   }, []);
 
   return (
-    <div>
+    <section>
       <SectionTitle subHeading="Check it out" heading="FROM OUR MENU" />
-    </div>
+      <div>
+        {items.map((item) => (
+          <MenuItem key={item._id} item={item} />
+        ))}
+      </div>
+    </section>
   );
 };
 
