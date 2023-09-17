@@ -1,11 +1,11 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import visa from "./../../../assets/cards/visa.png";
 import master from "./../../../assets/cards/master.png";
 import american from "./../../../assets/cards/american.png";
 import paypal from "./../../../assets/cards/paypal.png";
 import payoneer from "./../../../assets/cards/payoneer.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const Footer = () => {
   //AOS animation used here
