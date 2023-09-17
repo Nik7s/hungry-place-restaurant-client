@@ -376,22 +376,6 @@
         "price": 14.5
     },
     {
-        "_id": "642c155b2c4774f05c36eeac",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://www.bordbia.ie/globalassets/bordbia.ie/lifestyle/recipes/green-salad2.png?format=webp&quality=72&width=600",
-        "category": "salad",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2cutyut54774f05c36eeac",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://images.immediate.co.uk/production/volatile/sites/30/2014/05/Epic-summer-salad-hub-2646e6e.jpg",
-        "category": "salad",
-        "price": 14.5
-    },
-    {
         "_id": "642c155b2c4774f05c36eeb4",
         "name": "Haddock",
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",

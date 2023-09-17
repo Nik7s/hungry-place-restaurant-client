@@ -2,7 +2,7 @@ import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import featureImg from "../../../assets/home/featured.jpg";
 const Featured = () => {
   return (
-    <div className="bg-featuredBg bg-cover">
+    <div className="bg-featuredBg bg-fixed bg-cover">
       <div className="bg-gradient-to-r py-20 from-black to-[rgba(21, 21, 21, 0.3)] h-screen">
         <SectionTitle
           color="white"
