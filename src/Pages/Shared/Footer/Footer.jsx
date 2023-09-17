@@ -20,7 +20,7 @@ const Footer = () => {
         data-aos="fade-up"
         data-aos-duration="2000"
         data-aos-easing="linear"
-        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5  bg-footerBg text-white pt-20 pb-10 px-12 ps-14"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5 bg-footerBg text-white pt-20 pb-10 px-12 ps-14"
       >
         <div>
           <h1 className="font-mono font-bold text-xl mb-10">OPENING HOURS</h1>

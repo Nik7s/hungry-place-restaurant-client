@@ -3,7 +3,7 @@ const MenuItem = ({ item }) => {
   const { name, price, recipe, image } = item || {};
 
   return (
-    <div className="flex items-center space-x-4 justify-between ">
+    <div className="flex items-center space-x-5 space-y-6 justify-between ">
       <img
         style={{ borderRadius: "0 200px 200px 200px" }}
         className="w-[118px] h-[104px]"
@@ -11,10 +11,10 @@ const MenuItem = ({ item }) => {
         alt="recipe image"
       />
       <div>
-        <p className="text-xl font-medium">{name} ----------</p>
+        <p className="text-xl font-medium">{name} --------</p>
         <p>{recipe}</p>
       </div>
-      <p>$ {price}</p>
+      <p className="text-[#BB8506] font-medium">${price}</p>
     </div>
   );
 };
