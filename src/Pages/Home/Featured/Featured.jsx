@@ -3,8 +3,12 @@ import featureImg from "../../../assets/home/featured.jpg";
 const Featured = () => {
   return (
     <div className="bg-featuredBg bg-cover">
-      <div className="bg-gradient-to-r py-20 from-black to-[rgba(21, 21, 21, 0.6)] h-screen">
-        <SectionTitle subHeading="Check it out" heading="Featured Menu" />
+      <div className="bg-gradient-to-r py-20 from-black to-[rgba(21, 21, 21, 0.3)] h-screen">
+        <SectionTitle
+          color="white"
+          subHeading="Check it out"
+          heading="Featured Menu"
+        />
         <div className="pb-12 max-w-screen-lg	mx-auto flex space-x-8 items-center">
           <img
             className="w-[500px] rounded-md"
@@ -20,7 +24,9 @@ const Featured = () => {
               Eaque repellat recusandae ad laudantium tempore consequatur
               consequuntur omnis ullam maxime tenetur.
             </p>
-            <button className="btn btn-outline text-white">Order Now</button>
+            <button className="btn mt-4 btn-outline text-white">
+              Order Now
+            </button>
           </div>
         </div>
       </div>
