@@ -1,3 +1,4 @@
+import MenuItems from "../../Shared/MenuItems/MenuItems";
 import Banner from "../Banner/Banner";
 import Categories from "../Category/Categories";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div className=" bg-white">
       <Banner />
       <Categories />
+      <MenuItems />
     </div>
   );
 };
