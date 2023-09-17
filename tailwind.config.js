@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         footerBg: "url('/src/assets/footer-bg.jpg')",
+        featuredBg: "url('/src/assets/home/featured.jpg')",
       },
     },
   },
