@@ -1,6 +1,6 @@
 const Menu = () => {
   return (
-    <div>
+    <div className="h-screen">
       <h1>This is Menu Component</h1>
     </div>
   );

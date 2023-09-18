@@ -2,6 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import logo from "./../../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   //AOS animation used here
@@ -13,11 +14,11 @@ const NavBar = () => {
   const navItems = (
     <>
       <li>
-        <a>Home</a>
+        <Link to="/">Home</Link>
       </li>
 
       <li>
-        <a>Contact</a>
+        <Link to="/menu">Our Menu</Link>
       </li>
       <li>
         <a>Dashboard</a>
