@@ -1,13 +1,16 @@
 import { Helmet } from "react-helmet-async";
+import Cover from "../../Shared/Cover/Cover";
 
 const Menu = () => {
   return (
-    <div className="h-screen">
+    <section className="h-screen">
       <Helmet>
         <title>Hungry Place | Our Menu</title>
       </Helmet>
-      <h1>This is Menu Component</h1>
-    </div>
+      <div>
+        <Cover />
+      </div>
+    </section>
   );
 };
 
