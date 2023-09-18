@@ -8,7 +8,7 @@ const Menu = () => {
         <title>Hungry Place | Our Menu</title>
       </Helmet>
       <div>
-        <Cover />
+        <Cover title={"Kinds of Food Available"} />
       </div>
     </section>
   );
